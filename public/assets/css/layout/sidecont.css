@@ -4,7 +4,6 @@
     max-width: 135px;
     height:100%;
     flex-direction:column;
-    border:solid 1px white;
 }
 
 .sidecont ul, .sidecont li {

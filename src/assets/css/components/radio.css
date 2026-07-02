@@ -1,4 +1,4 @@
-#gamerradio li {
+#gameraradio li {
     text-align:right;
     color:white;
 }
@@ -7,7 +7,8 @@
     font-family: var(--base-sidecont-font);
     padding-right:7px;
     color:lime;
-    font-size:8pt;
+    font-size:7pt;
+    display:inline;
 }
 
 #power-symbol {
@@ -28,4 +29,33 @@
 
 #radio-circle {
     font-size:6pt;
+}
+
+#radioplaying {
+    width:135px;
+    max-width:135px;
+    font-family: ms ui gothic;
+    border:solid 1px white;
+}
+
+.radio-container {
+    overflow:hidden;
+}
+
+.marquee {
+    display:inline-block;
+    text-align:right;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+#radioplaying a {
+    color:white;
+    text-decoration:none;
+    padding:0;
+}
+
+.marquee {
+    display:inline-block;
+    animation:scroll 10s linear infinite;
 }
