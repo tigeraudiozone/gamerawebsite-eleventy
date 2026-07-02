@@ -1,4 +1,26 @@
 body {
-    background-color:black;
-    
+    background-color:var(--base-background);
+    background-image:url(/assets/images/backgrounds/greengrid.jpg);
+    background-position:1px 0;
+    font-size:11pt;
+    margin:0;
+    padding:0;
+}
+
+.bgblackbox {
+    background:var(--base-background);
+    width:1070px;
+    vertical-align:top;
+    margin:0 auto;
+    min-height:100vh;
+}
+
+.bigcont {
+    margin:auto auto;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    width:970px;
+    min–height:750px;
+    border:solid 1px white;
 }
