@@ -1,7 +1,7 @@
 export default function(eleventyConfig) {
 
-    eleventyConfig.addPasstrhoughCopy('/src/styles.css');
-    eleventyConfig.addPasstrhoughCopy('/src/assets');
+    eleventyConfig.addPassthroughCopy('src/css');
+    eleventyConfig.addPassthroughCopy('src/assets');
 
     return {
         dir:{
