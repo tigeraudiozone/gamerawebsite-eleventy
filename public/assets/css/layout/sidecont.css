@@ -1,0 +1,19 @@
+.sidecont {
+    display:flex;
+    width:135px;
+    max-width: 135px;
+    height:100%;
+    flex-direction:column;
+    border:solid 1px white;
+}
+
+.sidecont ul, .sidecont li {
+    list-style:none;
+    margin:0;
+    color:hotpink;
+    padding:1px 0 2px 5px;
+    text-align:left;
+    text-indent:-1em;
+    line-height:0.7;
+    
+}

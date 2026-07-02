@@ -1,0 +1,6 @@
+.sidecont {
+    display:flex;
+    width:135px;
+    max-width: 135px;
+    height:100%;
+}

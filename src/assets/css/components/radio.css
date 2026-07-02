@@ -1,0 +1,12 @@
+#gamerradio li {
+    text-align:right;
+    color:white;
+}
+
+#onlinenow {
+    font-family: var(--base-sidecont-font);
+}
+
+#power-symbol {
+    font-size:6pt;
+}

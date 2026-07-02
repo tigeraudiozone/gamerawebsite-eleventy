@@ -1,0 +1,7 @@
+.sidecont {
+    display:flex;
+    border:solid 1px white;
+    height:100%;
+    width:135px;
+    max-width:135px; 
+}
