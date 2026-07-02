@@ -15,5 +15,7 @@
     text-align:left;
     text-indent:-1em;
     line-height:0.7;
+    font-size:20px;
+    font-family: var(--base-sidecont-font);
     
 }

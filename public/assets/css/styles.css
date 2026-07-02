@@ -3,4 +3,5 @@
 @import "components/logocont.css";
 @import "layout/sidecont.css";
 @import "components/radio.css";
-@import "base/typography.css"
+@import "base/typography.css";
+@import "layout/main.css";

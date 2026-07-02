@@ -1,0 +1,11 @@
+.main {
+    background-color:var(--base-background);
+    min-width:650px;
+    max-width:650px;
+    min-height:750px;
+    margin: 0 auto;
+    border: 7px #00ab00;
+    border-style: solid;
+    color:var(--base-title-font-color);
+    position:relative;
+}

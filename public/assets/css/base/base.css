@@ -24,3 +24,7 @@ body {
     min–height:750px;
     border:solid 1px white;
 }
+
+.no-wrap {
+    white-space: nowrap;
+}

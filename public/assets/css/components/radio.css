@@ -5,8 +5,27 @@
 
 #onlinenow {
     font-family: var(--base-sidecont-font);
+    padding-right:7px;
+    color:lime;
+    font-size:8pt;
 }
 
 #power-symbol {
+    font-size:6pt;
+}
+
+#arrow-decoration {
+    font-size:8.5pt;
+}
+
+#livenow {
+    display:inline;
+    font-family: var(--base-sidecont-font);
+    padding-right:7px;
+    color:red;
+    font-size:8pt;
+}
+
+#radio-circle {
     font-size:6pt;
 }
