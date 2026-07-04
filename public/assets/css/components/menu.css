@@ -1,0 +1,31 @@
+#menu div {
+    text-align:left;
+    margin-left:10px;
+    color:var(--base-border-color);
+}
+
+.menu {
+    background-color:var(--base-menu-background-color);
+    max-width:135px;
+    border:3px outset var(--base-border-color);
+}
+
+.menu li {
+    margin:5px auto 5px -7px;
+    font-family: var(--base-sidecont-font);
+    color:var(--base-title-font-color);
+    font-size:18px;
+}
+
+.menu li::before {
+    padding:0;
+    margin-left:25px;
+    content: " > ";
+    font-style:italic;
+    color:var(--base-arrow-menu-color);
+    font-size:15px;
+}
+
+.sidecont ul:not(:first-child) {
+    margin-top:10px;
+}
