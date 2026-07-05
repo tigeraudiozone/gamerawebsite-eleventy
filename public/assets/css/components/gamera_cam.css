@@ -1,0 +1,25 @@
+.sideboxR {
+    width:150px;
+    border:outset 3px var(--base-border-color);
+    background:black;
+}
+
+.gameracamborder {
+    max-width:140px;
+    margin:3px 0px -1px 3px;
+    padding:1px;
+    border:1px solid white;
+}
+
+#gameracam img {
+    z-index:1;
+}
+
+#gameracam li::before {
+    text-align:left;
+    padding:0;
+    margin:3px 0 0 0;
+    content: "★ ";
+    font-style:italic;
+    color:var(--second-base-font-color)
+}
