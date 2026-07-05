@@ -1,0 +1,19 @@
+.button1 {
+    display:flex;
+    flex-direction: column;
+    text-align:right;
+    color:white;
+    font-family:var(--base-sidecont-font);
+    font-size:18px; /*If I set the size with something greater than 0 the images don't align well vertically*/
+}
+
+.button1 a, .button1 a:visited {
+    color:var(--second-base-font-color);
+    text-decoration:none;
+    padding-top:0;
+    margin-top:0;
+}
+
+.button1 img {
+    padding-top:6px;
+}
