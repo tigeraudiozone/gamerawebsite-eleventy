@@ -1,0 +1,91 @@
+#gamer-ring {
+    color: white;
+    margin:30px auto;
+    padding:5px;
+    color:black;
+    background-color:#e6e6e68a !important;
+    backdrop-filter:blur(5px);
+    -webkit-backdrop-filter:blur(5px);
+    width:240px !important;
+    border-radius:15px;
+    box-shadow:inset 1px 1px 0 #ffffff77, 1px 1px 0 #00000077;
+    line-height:1.1;
+    letter-spacing:0;
+}
+
+#gamer-ring {
+    max-width:130px !important;
+    margin:10px auto 0 !important;
+    display:inline-block;
+    align-self:flex-end;
+}
+
+#gamer-ring table {
+    margin: 0;
+    filter: drop-shadow(0 0 5px #ffffff8c);
+    background-color:#ffffff48 !important;
+    border-radius:30px;
+    border-collapse:collapse;
+}
+
+#gamer-ring * {
+    border: none !important;
+}
+
+#gamer-ring .webring-prev, #gamer-ring .webring-next {
+    font-size:26px;
+}
+
+#gamer-ring .webring-prev {
+    text-align:right;
+}
+
+#gamer-ring table tr td {
+    padding:0 !important;
+}
+
+#gamer-ring a {
+    text-decoration:none;
+    color:black;
+    text-shadow:1px 1px 0 #fff;
+}
+
+#gamer-ring img {
+    margin:4px 0 0;
+    mix-blend-mode:unset;
+    filter:unset;
+}
+
+#gamer-ring .webring-info {
+    text-align:center;
+    font-family:monospace;
+    font-size:11px;
+}
+
+#gamer-ring .gamerringtext {
+    text-align:center;
+    color:#000;
+    text-shadow:1px 1px 0 #fff;
+    font-size:14px;
+}
+
+.gamerringtext {
+    font-family:'Times New Roman' !important;
+}
+
+.r {
+    font-size:22px;
+    vertical-align:-4px;
+}
+
+.sub {
+    opacity:0.8;
+    text-shadow:1px 1px 0 #fff;
+    color:#000;
+}
+
+#gamer-ring .webring-links {
+    font-weight:100;
+    font-size:10px;
+}
+
