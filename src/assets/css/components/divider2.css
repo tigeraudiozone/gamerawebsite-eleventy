@@ -1,0 +1,8 @@
+.divider2 {
+    border:0;
+    margin: 5px 0 5px 45px;
+    clear:both;
+    width:100%;
+    text-align:right;
+    border-top:1px dotted #00ab00;
+}
