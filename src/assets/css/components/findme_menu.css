@@ -1,0 +1,14 @@
+#findme li::before {
+    text-align:left;
+    padding:0;
+    margin:3px 0 0 0;
+    content:"❤ ";
+    font-style:italic;
+    font-size:15px;
+    color:var(--second-base-font-color);
+}
+
+#findme {
+    margin-top:20px;
+}
+

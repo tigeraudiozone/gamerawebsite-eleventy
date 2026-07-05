@@ -1,0 +1,8 @@
+.divider1 {
+    border:0;
+    margin: 0 0 0 0;
+    clear:both;
+    display:block;
+    width:100%;
+    border-top:1px solid var(--base-border-color);
+}
