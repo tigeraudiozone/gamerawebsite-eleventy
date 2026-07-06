@@ -4,7 +4,21 @@
     </li>
 </ul>
 <ul class="menu">
-    <li>home</li>
-    <li>about</li>
-    <li>links</li>
+    <li>
+        {% if page.url == "/" %}
+            <b style="color:white;">home</b>
+        {% else %}
+            <a href="/">home</a>
+        {% endif %}
+    </li>
+    <li>
+        {% if page.url == "/about/" %}
+            <b style="color:white;">about</b>
+        {% else %}
+            <a href="/about/">about</a>
+        {% endif %}
+    </li>
+    <li>
+        <a href="">links</a>
+    </li>
 </ul>
