@@ -1,0 +1,47 @@
+.featuredheader {
+    display:inline-flex;
+    width:100%;
+    flex-direction:row;
+    justify-content:space-between;
+    color:white;
+    user-select:none;
+}
+
+.gameinfocontainer {
+    width:374px;
+    display:flex;
+    position:relative;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:space-between;
+    position:relative;
+    border-top:solid 1px white;
+    padding-top:5px;
+    height:160px;
+}
+
+#featureddescription {
+    position:absolute;
+    z-index:3;
+    top:-2px;
+    left:25px;
+    color:black;
+    font-family:MS UI gothic;
+    font-size:13px;
+    align-text:justify;
+    margin-right:10px;
+    line-height:0.9;
+}
+
+
+.gameinfocontainer > div:first-child > img:first-child {
+    width:200px;
+}
+
+.gameinfocontainer ul {
+    padding:0;
+    margin:0;
+    margin-left:10px;
+}
+
+

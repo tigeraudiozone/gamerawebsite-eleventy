@@ -1,0 +1,11 @@
+.homecontainer {
+    display:flex;
+    width:650px;
+    margin:auto;
+    justify-content:space-around;
+}
+
+.leftcont {
+    width:375px;
+    margin:0;
+}
