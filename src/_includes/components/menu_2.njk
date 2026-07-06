@@ -1,3 +1,9 @@
 <ul class="menu">
-    <li>blog</li>
+    <li>
+        {% if page.url == "/blog/" %}
+            <b style="color:white;">blog</b>
+        {% else %}
+            <a href="/blog/">blog</a>
+        {% endif %}
+    </li>
 </ul>

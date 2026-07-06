@@ -1,5 +1,23 @@
 <ul class="menu">
-    <li>gamerlist</li>
-    <li>gamelog</li>
-    <li>gamecolle</li>
+    <li>
+        {% if page.url == "/gamerlist/" %}
+            <b style="color:white;">gamerlist</b>
+        {% else %}
+            <a href="/gamerlist/">gamerlist</a>
+        {% endif %}
+    </li>
+    <li>
+        {% if page.url == "/gamerlog/" %}
+            <b style="color:white;">gamerlog</b>
+        {% else %}
+            <a href="/gamerlog/">gamerlog</a>
+        {% endif %}
+    </li>
+    <li>
+        {% if page.url == "/gamercolle/" %}
+            <b style="color:white;">gamercolle</b>
+        {% else %}
+            <a href="/gamercolle/">gamercolle</a>
+        {% endif %}
+    </li>
 </ul>

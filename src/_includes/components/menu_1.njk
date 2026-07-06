@@ -19,6 +19,10 @@
         {% endif %}
     </li>
     <li>
-        <a href="">links</a>
+        {% if page.url == "/links/" %}
+            <b style="color:white;">links</b>
+        {% else %}
+            <a href="/links/">links</a>
+        {% endif %}
     </li>
 </ul>
