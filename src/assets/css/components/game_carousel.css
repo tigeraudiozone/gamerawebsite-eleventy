@@ -33,10 +33,11 @@
     line-height:0.9;
 }
 
-
-.gameinfocontainer > div:first-child > img:first-child {
-    width:200px;
+.blackoutline {
+    padding:1px;
+    border:1px solid white;
 }
+
 
 .gameinfocontainer ul {
     padding:0;

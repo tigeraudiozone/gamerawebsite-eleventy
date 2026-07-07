@@ -1,0 +1,1 @@
+import '/assets/js/featured_games.js';

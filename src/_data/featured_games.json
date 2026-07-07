@@ -1,0 +1,35 @@
+[
+    {
+        "img":"/assets/images/gameinfopics/honyamonogatari.png",
+        "developer":"Kairosoft",
+        "year":"1996",
+        "publihser":"mgmt / legendary kusoge",
+        "title":["Honya Monogatari"],
+        "description":"Bookstore management game from the minds (mind?) at Kairosoft, and their first released game. Quite different from their current stuff and on the more challenging side - thankfully, you can commit insurance fraud to get many monies. Sadly, many monies mean you'll get robbed and stabbed to death, too."
+    },
+    {
+        "img":"/assets/images/gameinfopics/refixion2.png",
+        "developer":"Synergy",
+        "year":"1992",
+        "publihser":"exploration / FMV gallery",
+        "title": ["Refixion II: Museum ", "or Hospital"],
+        "description":"The second part to the Refixion CD-ROM series by Synergy. A virtual portfolio of early CGI and real-life FMV, blending industrial hardsurface models and organic shapes with a surreal atmosphere on top. Is it a museum, or a hospital?"
+    },
+    {
+        "img":"/assets/images/gameinfopics/ifmonkshadmacs.png",
+        "developer":"riverText",
+        "year":"1988",
+        "publihser":"virtual monastery library",
+        "title":["If Monks had Macs..."],
+        "description":"A collection of stacks focusing on spirituality and christianity. Act the part of a monk by studying stacks that go from the Imitatio Christi to the author's philosophical musings on hypertext, not giving in to temptation to the devil, or translating more books to hypertext, as monks do."
+    },
+    {
+        "img":"/assets/images/gameinfopics/id.png",
+        "developer":"Croucher + Jones",
+        "year":"1986",
+        "publihser":"puzzle / pseudo AI chatbot",
+        "title":["iD"],
+        "description":"Conversational puzzle adventure for the ZX Spectrum designed by Mel Croucher of Deus Ex Machina's fame. You must discover the computer AI's real identity. Will you open youself to the machine?"
+    }
+
+]
