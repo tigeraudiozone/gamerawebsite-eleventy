@@ -15,3 +15,20 @@
     text-align:right;
     margin-top:50px;
 }
+
+.welcome2 {
+    text-align:justify;
+    color:white;
+    margin-top:-5px;
+}
+
+
+.welcome2 b {
+    color:hotpink;
+}
+
+.welcome2 a, .welcome2 a:visited {
+    color:lime;
+    padding-top:0;
+    margin-top:0;
+}
