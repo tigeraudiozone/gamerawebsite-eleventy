@@ -32,3 +32,38 @@
     padding-top:0;
     margin-top:0;
 }
+
+
+.statuscafe {
+    background-color:black;
+    font-family: consolas;
+    padding:0;
+    border:solid 1px hotpink;
+    width:375px;
+    margin:30px auto auto;
+    font-size:12px;
+    align-self:flex-end;
+    user-select:none;
+}
+
+.statuscafe-content {
+    font-family:MS UI gothic;
+    background:lavenderblush;
+}
+
+
+.statuscafe td {
+    width:100%;
+    position:relative;
+    display:table-cell;
+}
+
+.statuscafe-content img {
+    position:absolute;
+    margin:-5px -5px -5px 3px;
+}
+
+.statuscafe-content p {
+    margin:8px 0px 8px 42px;
+    color:hotpink;
+}
