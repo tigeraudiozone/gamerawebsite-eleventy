@@ -19,7 +19,7 @@ function update_feature_game() {
     ;
 
     /*Check: a <br> must be added*/
-    document.getElementById("featuredtitle").textContent = game.title.join(" ");
+    document.getElementById("featuredtitle").innerHTML = game.title.join("<br>");
 
     document.getElementById("featureddescription").textContent = game.description;
 }
@@ -46,6 +46,7 @@ function left_feature_game() {
 
     update_feature_game();
 }
+
 
 next.addEventListener("click", right_featured_game);
 prev.addEventListener("click", left_feature_game);

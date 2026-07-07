@@ -9,3 +9,9 @@
     width:375px;
     margin:0;
 }
+
+.welcome {
+    font-family:Georgia;
+    text-align:right;
+    margin-top:50px;
+}
