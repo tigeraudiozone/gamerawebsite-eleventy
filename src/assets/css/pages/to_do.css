@@ -1,0 +1,10 @@
+.floatingtodo {
+    font-family:MS UI gothic;
+    position:absolute;
+    background-color:hotpink;
+    color:white;
+    border-radius:25px;
+    padding:5px;
+    margin-left:-15px;
+    margin-top:15px;
+}
