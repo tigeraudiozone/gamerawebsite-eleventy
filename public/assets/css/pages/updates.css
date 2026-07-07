@@ -1,0 +1,28 @@
+.floatingupdt {
+    font-family: MS UI gothic;
+    position: absolute;
+    background-color:hotpink;
+    color:white;
+    border-radius:25px;
+    padding:5px;
+    margin-left:-15px;
+    margin-top:-10px;
+}
+
+.scrollerhome {
+    border:solid 3px gainsboro;
+    width:175px;
+    font-size:13px;
+    overflow:auto scroll;
+    background:black;
+    padding:10px;
+    font-family:MS UI gothic;
+}
+
+.scrollerhome img {
+    vertical-align:top;
+}
+
+.scrollerhome a, .scrollerhome a:visited {
+    color:hotpink;
+}
